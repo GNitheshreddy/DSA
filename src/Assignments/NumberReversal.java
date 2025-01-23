@@ -14,7 +14,12 @@ public class NumberReversal {
         
         System.out.println("Original Array: " + Arrays.toString(arr));
         System.out.println("Reversed Array: " + Arrays.toString(reversed));
-    }
+//        for(int i=0;i<arr.length;i++) {
+//        	System.out.println("Original Array: "+arr[i]);
+//        }
+//        for(int i=0;i<arr.length;i++) {
+//        	System.out.println("Revesed  Array: "+ reversed[i]);
+        }
     
     private static int reverseNumber(int num) {
         int reversed = 0;
